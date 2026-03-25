@@ -1,0 +1,16 @@
+{
+  "name": "authsignal-push-auth",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Authsignal push authentication demo with web and mobile apps",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:api": "npm run dev -w api",
+    "dev:web": "npm run dev -w web",
+    "dev:mobile": "npm run start -w mobile",
+    "build": "npm run build -w api && npm run build -w web",
+    "check": "npm run typecheck -w api && npm run build -w web"
+  }
+}
