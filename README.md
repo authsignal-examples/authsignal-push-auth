@@ -52,19 +52,6 @@ npm run dev:mobile
 4. In mobile, approve or deny the challenge (with number matching for transactions).
 5. Web shows the result after backend validation.
 
-## Authsignal dashboard setup
-
-Enable Push and configure these actions:
-
-- `addAuthenticator` (scope: `add:authenticators`) — for enrollment
-- `signIn`
-- `approveTransaction`
-
-## Notes
-
-- Challenge context is stored in memory — use a database in production.
-- The webhook endpoint verifies `x-signature-v2` and can be extended to forward native push notifications.
-- `react-native-authsignal` requires an Expo development build (not Expo Go).
 
 ## Links
 
