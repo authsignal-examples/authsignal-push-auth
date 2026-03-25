@@ -4,8 +4,8 @@ A full-stack demo of push authentication using [Authsignal](https://www.authsign
 
 ## Use cases
 
-- **Sign-in approval** — user logs in on web, approves on mobile.
-- **Transaction approval** — high-risk action with number matching (3-digit code shown on web, verified on mobile).
+- **Sign-in approval** - user logs in on web, approves on mobile.
+- **Transaction approval** - high-risk action with number matching (3-digit code shown on web, verified on mobile).
 
 ## Project structure
 
